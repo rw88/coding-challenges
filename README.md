@@ -1,30 +1,8 @@
-# coding-challenges
-# Foobar
+# Description
+A collection of software experiments and programming challenges in multiple languages.
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+# Experiments
+- Cryptography ([Node.js](experiments/cryptography/nodejs))
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
