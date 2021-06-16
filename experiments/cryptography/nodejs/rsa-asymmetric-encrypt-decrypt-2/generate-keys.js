@@ -2,19 +2,19 @@ const { generateKeyPairSync } = require('crypto');
 const { writeFileSync } = require('fs');
 
 const generateKeys = () => {
-    return generateKeyPairSync("rsa", {
+    return generateKeyPairSync('rsa', {
         modulusLength: 4096,
         publicKeyEncoding: {
-            type: "pkcs1",
-            format: "pem",
+          type: 'pkcs1',
+          format: 'pem',
         },
         privateKeyEncoding: {
-            type: "pkcs1",
-            format: "pem",
-            cipher: "aes-256-cbc",
-            passphrase: "",
-        }
-    });
+          type: 'pkcs1',
+          format: 'pem',
+          cipher: 'aes-256-cbc',
+          passphrase: '',
+        },
+      })
 };
 
 const { privateKey, publicKey } = generateKeys();
