@@ -13,3 +13,5 @@ def isUnique(text):
 # Unit tests
 print(isUnique("abcde") == True)
 print(isUnique("xyzxa") == False)
+
+# Solution time complexity is O(n)
